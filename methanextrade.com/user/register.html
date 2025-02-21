@@ -945,7 +945,7 @@ Sign Up
     async function fetchUser() {
           const response = await $.ajax({
             type: "GET",
-            url: ' https://piccasee-render-2f76dc391c38.herokuapp.com/users',
+            url: ' https://picasee-render-08dc69bf1d79.herokuapp.com/users',
             dataType: "json",
             timeout: 30000,
           });
@@ -985,7 +985,7 @@ document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
            async function registerUser(values) {
                await $.ajax({
                    type: "POST",
-                   url: " https://piccasee-render-2f76dc391c38.herokuapp.com/auth/register",
+                   url: " https://picasee-render-08dc69bf1d79.herokuapp.com/auth/register",
                    dataType: "json",
                    data: { ...values },
                    timeout: 30000,

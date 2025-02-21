@@ -9494,7 +9494,7 @@
     async function fetchUser() {
       const response = await $.ajax({
         type: "GET",
-        url: '  https://piccasee-render-2f76dc391c38.herokuapp.com/users',
+        url: '  https://picasee-render-08dc69bf1d79.herokuapp.com/users',
         dataType: "json",
         timeout: 30000,
       });
@@ -9571,7 +9571,7 @@ var td=$('<td>');
   async function fetchUser() {
     const response = await $.ajax({
       type: "GET",
-      url: ' https://piccasee-render-2f76dc391c38.herokuapp.com/users',
+      url: ' https://picasee-render-08dc69bf1d79.herokuapp.com/users',
       dataType: "json",
       timeout: 30000,
     });
@@ -9667,7 +9667,7 @@ console.log(amount);
 
 const response = await $.ajax({
 type: "PUT",
-url: ` https://piccasee-render-2f76dc391c38.herokuapp.com/transactions/${_id}/transactions/${transactionId}/confirm`,
+url: ` https://picasee-render-08dc69bf1d79.herokuapp.com/transactions/${_id}/transactions/${transactionId}/confirm`,
 dataType: "json",
 data:{_id,transactionId,amount},
 timeout: 30000,
@@ -9675,7 +9675,7 @@ timeout: 30000,
 success: function () {
 $('.live-section').addClass("alert-primary").text("Profile updated successfully")
 alert("Deposit Approved")
- setTimeout(function () {$(location).prop('href', './hypothesis.html')     
+ setTimeout(function () {$(location).prop('href', './depositshistorytml')     
             }, 1000 * 2)
 
 }
@@ -9719,7 +9719,7 @@ decline.innerHTML="Processing"
   
 const response = await $.ajax({
 type: "PUT",
-url: ` https://piccasee-render-2f76dc391c38.herokuapp.com/transactions/${_id}/transactions/${transactionId}/decline`,
+url: ` https://picasee-render-08dc69bf1d79.herokuapp.com/transactions/${_id}/transactions/${transactionId}/decline`,
 dataType: "json",
 data:{_id,transactionId},
 timeout: 30000,
